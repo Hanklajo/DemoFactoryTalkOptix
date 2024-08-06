@@ -1,0 +1,80 @@
+Name: test_layoutOptix
+Id: g=e874c4d308f808338e4dec0fa087f1b4
+Type: ProjectFolder
+Children:
+- Name: Localization
+  Id: g=ef41aaec9837d7f9356d5ee9901e4aa5
+  Type: PropertyGroup
+  Children:
+  - Name: Locales
+    Id: g=6e4bc39ba01e9f0b441a322073bee7fa
+    Type: BaseDataVariableType
+    DataType: LocaleId
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: ["en-US"]
+  - Name: LocaleFallbackList
+    Id: g=c8a5cdd65b8e1a98fdfd96c1e6d9949a
+    Type: BaseDataVariableType
+    DataType: LocaleId
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: ["en-US"]
+- Name: Authentication
+  Id: g=2233f16303fe7b81a86ea649370ef4b1
+  Type: PropertyGroup
+  Children:
+  - Name: DefaultUserFolder
+    Id: g=8bc3f0b04b513153c6474b7ce7a1121f
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/test_layoutOptix/Security/Users"
+    Children:
+    - Name: Kind
+      Id: g=e0c6d0c755715c11720b61c8df1bc2da
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/FolderType"
+- Name: PasswordPolicy
+  Id: g=869fc40f73b9e88ca8a29c0646954574
+  Type: PasswordPolicy
+  Children:
+  - Name: MaximumPasswordAge
+    Id: g=f09614d8f629c549d886f1aa8b80d615
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 0
+  - Name: EnforcePasswordHistory
+    Id: g=7a84431079469bb539f39b54cd1e81a6
+    Type: BaseDataVariableType
+    DataType: Byte
+    Value: 1
+  - Name: MinimumPasswordAge
+    Id: g=06ae91402db8a8bb549d72e2fc539ebe
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 0
+  - Name: MinimumPasswordLength
+    Id: g=8fb19126fbcd69a971a63aca2f26a0aa
+    Type: BaseDataVariableType
+    DataType: Byte
+    Value: 8
+- Name: AlarmConfiguration
+  Id: g=33b999863b8b3a8104cb86bf1b3ae778
+  Type: PropertyGroup
+- File: UI/UI.yaml
+- File: Model/Model.yaml
+- File: Converters/Converters.yaml
+- File: Alarms/Alarms.yaml
+- File: Recipes/Recipes.yaml
+- File: Loggers/Loggers.yaml
+- File: DataStores/DataStores.yaml
+- File: Reports/Reports.yaml
+- File: 'OPC-UA/OPC-UA.yaml'
+- File: CommDrivers/CommDrivers.yaml
+- File: NetLogic/NetLogic.yaml
+- File: Security/Security.yaml
+- File: System/System.yaml
+- File: Translations/Translations.yaml
+- File: Retentivity/Retentivity.yaml
+- File: ImageButton/ImageButton.yaml

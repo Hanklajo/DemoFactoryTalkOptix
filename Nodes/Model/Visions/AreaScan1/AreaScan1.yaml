@@ -1,0 +1,19 @@
+Name: AreaScan1
+Id: g=a65bad2a2ed7f722f9b6e8d41326be5f
+Type: FolderType
+Children:
+- Name: status_cap
+  Id: g=1f404fa19fcb49378bfb824f3662a9a9
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: image_message
+  Id: g=d30f50d8d89364d1f4acb0464b349919
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
+- Name: position_message
+  Id: g=ace3aa67d0170b474a1e1ffed8a08960
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"

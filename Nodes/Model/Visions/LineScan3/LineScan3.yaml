@@ -1,0 +1,19 @@
+Name: LineScan3
+Id: g=a8304f9abd49ac04968ef05cf5430ee4
+Type: FolderType
+Children:
+- Name: status_cap
+  Id: g=2e059418135eed319274612ec762da21
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: image_message
+  Id: g=c5b8a645c954b6ee3195e25afee2a538
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
+- Name: position_message
+  Id: g=7850d6baf7c5e9c6580ca22082d3fb66
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"

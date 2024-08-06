@@ -1,0 +1,20 @@
+Name: Visions
+Id: g=bfab959603344e26c40ebf86cb667c87
+Type: FolderType
+Children:
+- File: AreaScan1/AreaScan1.yaml
+- File: AreaScan2/AreaScan2.yaml
+- File: LineScan1/LineScan1.yaml
+- File: LineScan2/LineScan2.yaml
+- File: LineScan3/LineScan3.yaml
+- File: LineScan4/LineScan4.yaml
+- Name: IntitailStatus
+  Id: g=a9919b222e83365e5cd3cb3dbb7f1eae
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: InitialParameter
+  Id: g=3c5333da58f259e6e18bc053f0fee7fd
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "{\"AnnotationAssistant\": [{\"AssistantId\": 5, \"BlurFilterConfigDir\": \"5\", \"EdgeConfigDir\": \"C:/House/work/ai_vision_pulp_mold_feasibility/config/model_config/Dino_config.json\", \"LineSegConfigDir\": \"5\", \"DinoConfigDir\": \"C:/House/work/ai_vision_pulp_mold_feasibility/opcua_inferences/config/model_config/Dino_config.json\", \"KeypointConfigDir\": \"C:/House/work/ai_vision_pulp_mold_feasibility/opcua_inferences/config/model_config/Keypoint_config.json\", \"SamConfig\": \"C:/House/work/ai_vision_pulp_mold_feasibility/opcua_inferences/config/model_config/Sam_config.json\", \"UploadDate\": \"2024-07-08 00:00:00\", \"UpdateDate\": \"2024-07-08 00:00:00\"}], \"ArucoDetection\": [{\"ArucoDetId\": 0, \"ArucoNames\": \"aruco80*80\", \"ArucoDictName\": \"aruco80*80\", \"UploadDate\": \"2024-06-27 00:00:00\", \"UpdateDate\": \"2024-06-27 00:00:00\"}], \"CameraConfiguration\": [{\"CameraConfigId\": 1, \"CameraConfigDir\": \"Path/file\", \"UploadDate\": \"2024-06-27 00:00:00\", \"UpdateDate\": \"2024-06-27 00:00:00\"}], \"CameraDeprojectionWithAruco\": [{\"DeprojectionId\": 1, \"ArucoNames\": \"DicAruco\", \"ArucoDictName\": \"DicAruco\", \"Size\": 0, \"UploadDate\": \"2024-06-27 00:00:00\", \"UpdateDate\": \"2024-06-27 00:00:00\"}], \"CameraRegistration\": [{\"CameraId\": 0, \"CameraType\": \"Area\", \"Width\": 640, \"Height\": 480, \"CameraIntrinsic\": \"Path/file\", \"CameradisDistortion\": \"Path/file\", \"TFMToolincal\": \"Path/file\", \"TFNCaminBase\": \"Path/file\", \"UploadDate\": \"2024-06-27 00:00:00\", \"UpdateDate\": \"2024-06-27 00:00:00\", \"CameraConfigId\": null, \"PreprocessId\": null, \"AssistantId\": null, \"TrainVersionId\":erId\": 1, \"FilterName\": \"1\", \"FilterConfigDir\": \"Path/file\", \"UploadDate\": \"2024-06-27 00:00:00\", \"UpdateDate\": \"2024-06-27 00:00:00\"}], \"ImagePreprocessingTechniques\": [{\"PreprocessId\": 1, \"ResizeDim\": \"1\", \"UploadDate\": \"2024-06-27 00:00:00\", \"UpdateDate\": \"2024-06-27 00:00:00\", \"FilterId\": null}], \"StationaryCameraCalibration\": [{\"CalibrationId\": 0, \"ArucoNames\": \"Path/file\", \"ArucoDictName\": \"0\", \"TFMPlateInAruco\": \"Path/file\", \"Sizes\": \"Path/file\", \"UploadDate\": \"2024-06-27 00:00:00\", \"UpdateDate\": \"2024-06-27 00:00:00\"}], \"TrainAiModel\": [{\"TrainVersionId\": 1, \"TrainConfig\": null, \"DetecttionConfig\": \"1\", \"AIModelDir\": \"1\", \"ResultsReport\": \"1\", \"StartDate\": \"2024-06-27 00:00:00\", \"StopDate\": \"2024-06-27 00:00:00\", \"UploadDate\": \"2024-06-27 00:00:00\", \"UpdateDate\": \"2024-06-27 00:00:00\", \"IsTrainFromLast\": true, \"SSMA_TimeStamp\": \"b'\\\\x00\\\\x00\\\\x00\\\\x00\\\\x00\\\\x00FR'\"}]}"
